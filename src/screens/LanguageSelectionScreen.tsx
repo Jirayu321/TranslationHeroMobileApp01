@@ -66,7 +66,7 @@ const LanguageSelectionScreen: React.FC<Props> = ({navigation}) => {
           onPress={() =>
             navigation.navigate('FileSelection', {languageFrom, languageTo})
           }>
-          Select Fil
+          Select File
         </Button>
       </View>
     </Provider>
